@@ -9,7 +9,7 @@ Estamos utilizando os ambientes Visual Studio code, GitHub, WhatsApp, figma e tr
 Estamos utilizando o GitHub como ambiente implantado para controle de código fonte do projeto.
 
 <h2>Ambiente de Gestão de Tarefas com Kanban:</h2>
-
+https://trello.com/b/ejXy5b6n/sos-mulher
 
 <h2>Documentação sobre o Uso do Kanban e Scrumban</h2>
 
