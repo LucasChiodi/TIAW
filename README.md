@@ -1,7 +1,12 @@
 <h1>Documentação de Contexto e Especificações do Projeto</h1>
 <h2>SOS MULHERES</h2>
-- O trabalho foi feito pela equipe Gustavo, Igor, João,Luiz e Lucas.<br> 
-<p></p>
+Equipe:<br>
+- Gustavo<br>
+- Igor<br>
+- João<br>
+- Luiz<br>
+- Lucas<br> 
+<p><p><h2>Idealização do projeto</h2></p></p>
 A idealização do trabalho se iniciou em uma ideia de representação as mulheres e apoio a sua segurança física, mental e em respeito a sua integridade física. 
 Primeiro, para efetuarmos nosso site precisamos fazer uma pesquisa entre as mulheres do nosso convívio ( mães, namoradas, irmãs e amigas). Tendo compreendido seus problemas buscamos soluções nos sites. 
 Que se complemente que em nosso site, busca se encontrar com mulheres de pelo menos 17 anos para mais com nível de escolaridade não sendo um barramento para sua usabilidade nem mesmo segmento de atuação ou localização geográfica. 
@@ -108,6 +113,28 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 <h3> Apresentação em slides </h3>
 
 ![SOS Mulher 3.pdf](https://github.com/LucasChiodi/TIAW/files/15056070/SOS.Mulher.3.pdf)
+
+## Atualizações Recentes
+
+### [Data: 20/06/2024]
+
+#### Barra Lateral
+- `barralateral.html` - Adicionado código HTML da barra lateral.
+- `script.js` - Adicionado script JavaScript para a barra lateral.
+- `style.css` - Adicionado estilos CSS para a barra lateral.
+
+#### Main
+- `main.html` - Adicionado código HTML do conteúdo principal.
+- `styles.css` - Adicionado estilos CSS para o conteúdo principal.
+
+## [Data: 20/06/2024]
+
+### Adicionado
+- `barralateral.html` - Código HTML da barra lateral.
+- `script.js` - Script JavaScript para a barra lateral.
+- `style.css` - Estilos CSS para a barra lateral.
+- `main.html` - Código HTML do conteúdo principal.
+- `styles.css` - Estilos CSS para o conteúdo principal.
 
 
 
