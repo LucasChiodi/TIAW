@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: pink;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);   
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.flex img {
+    width: 100px;
+}
+
+.logo-img {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img h2 {
+    color: #FF009D;
+    text-align: center;
+    border-left: solid 3px;
+    padding: 10px;
+}
+
+header ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header li a {
+    color: #FF009D;
+    text-decoration: none;
+    margin: 40px;
+    font-weight: bold;
+}
+
+header li a:hover {
+    color: #FF009D;
+    font-weight: bold;
+    text-decoration:underline;
+    transition: .2s;
+}
+
+.btn-contato button {
+    color: #FF009D;
+    background-color: #ff009d00;
+    padding: 15px 45px;
+    cursor: pointer;
+    border-radius: 200px;
+    border: solid #FF009D;
+    font-weight: bold;
+}
+
+.btn-contato button:hover {
+    color: #ffffff;
+    background-color: #ff009d;
+    transition: .4s;
+    font-weight: bold;
+}
+
+/* Página Sugestão*/ 
+
+main {
+    margin: 15px;
+    padding: 15px;
+}
+
+.section1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0px 0px 15px;
+}
+
+.section1 p,h3 {
+    padding: 4px 0px;
+    margin: 2px 0px;
+    text-align: justify;
+}
+
+.section1 .sugestaoform {
+    border-radius: 15px;
+    font-weight: bold;
+
+
+}
+
+.section1 .sugestaoform h3 {
+    padding: 0px 0px 15px;
+    text-align: center;
+}
+
+.sugestaoform .buttonform {
+    display: flex;
+    justify-content: center;
+}
+
+.sugestaoform .buttonform button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section1 .sugestaoform .divform input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.section1 .priv h3 {
+    margin: 15px 0px 0px;
+    
+}
+
+.section1 .agradecimento h3 {
+    margin: 15px 0px 0px;
+    padding: 15px 0px 0px;
+    border-top: solid pink 3px;
+    
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);  
+}
+
+.flexfooter {
+    padding: 15px;
+
+}
+
+.flexfooter img {
+    width: 80px;
+}
+
+.flexfooter .info {
+    padding: 8px;
+    border-left: solid #FF009D 3px;
+}
+
+.flexfooter .info p {
+    padding: 4px;
+    font-style: italic;
+}
+
+
+
+
+.flexfooter .disque {
+    margin: 0 12%;
+    font-style: italic;
+}
+
+.flexfooter .disque ul li {
+    padding: 5px;
+}
+
+.flexfooter .disque ul li a {
+    font-weight: bold;
+    color: rgb(0, 0, 155);
+    text-decoration: none;
+}
+
+.flexfooter .disque ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.flexfooter .secoes {
+    border-top: solid 3px #FF009D;
+    margin: 8px 0;
+    padding: 10px 5px;
+}
+
+.flexfooter .secoes ul {
+    margin: 0 20px;
+}
+
+.flexfooter .secoes ul li {
+    padding: 4px;
+
+}
+
+.flexfooter .secoes ul li a{
+    color:rgb(0, 0, 155);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.flexfooter .secoes ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+#edit {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 480px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px 10px;
+
+    }
+
+    .logo-img h2 {
+        border-left: none;
+        padding: 0;
+    }
+
+    header ul {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .flex nav {
+        margin: 10px;
+    }
+
+    header ul li {
+        display: block;
+        margin: 30px;
+    }
+
+    header ul li a {
+        margin: 10px;
+    }
+
+    .btn-contato button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .flexfooter {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .flexfooter .info {
+        padding: 8px;
+        border: none;
+        border-bottom: solid #FF009D 3px;
+    }
+
+    .flexfooter .disque {
+        margin: 20px 0px;
+        border: none;
+    }
+
+    .flexfooter .secoes {
+        margin: 20px 0px 0px;
+        border: none;
+        border-top: solid #FF009D 3px;
+    }
+
+    .flexfooter {
+        display: flex;
+        align-items: center;
+    }
+
+
+    #edit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+        border: none;
+    }
+}
+
+/* Para tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .logo-img h2 {
+        border-left: none;
+        padding: 0;
+    }
+
+    header ul {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    header ul li {
+        display: block;
+        margin: 10px;
+    }
+
+    .btn-contato button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Para dispositivos maiores (769px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+
+    .flex nav {
+        padding: 10px;
+    }
+
+    header ul li {
+        margin: 22px;
+    }
+
+    header ul li a {
+        margin: 20px;
+    }
+}
+
+/* Para desktops grandes (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .flex {
+        padding: 0px 50px;
+    }
+
+    header ul li a {
+        margin: 30px;
+    }
+}
