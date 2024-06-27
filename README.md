@@ -129,13 +129,25 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 
 ## [Data: 20/06/2024]
 
+### Tela de loja/vendas
+-index.html da pagina principal e de todos os respectivos produtos
+-style css da pagina princupal e de todos os respectivos produtos
+-js slider pagina principal
+
+
+### [Data: 20/06/2024]
+
+
+
+
+
 ### Adicionado
 - `barralateral.html` - Código HTML da barra lateral.
 - `script.js` - Script JavaScript para a barra lateral.
 - `style.css` - Estilos CSS para a barra lateral.
 - `main.html` - Código HTML do conteúdo principal.
 - `styles.css` - Estilos CSS para o conteúdo principal.
-
+- `teladevendas.test`- html/css/javascript da pagina de vendas
 
 
 
