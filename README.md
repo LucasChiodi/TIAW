@@ -130,12 +130,12 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 ## [Data: 20/06/2024]
 
 ### Tela de loja/vendas
--index.html da pagina principal e de todos os respectivos produtos
--style css da pagina princupal e de todos os respectivos produtos
--js slider pagina principal
+- `index.html` da pagina principal e de todos os respectivos produtos
+- `style css` da pagina principal e de todos os respectivos produtos
+- `js` slider pagina principal
 
 
-### [Data: 20/06/2024]
+### [Data: 21/06/2024]
 
 
 
