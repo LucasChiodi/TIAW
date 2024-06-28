@@ -1,0 +1,23 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "lucas chiodi reis",
+        "email": "lucaschiodi11@gmail.com",
+        "password": "rr131095"
+      },
+      {
+        "id": 2,
+        "username": "luiz eduardo",
+        "email": "luiizjm@outlook.com",
+        "password": "rr131095"
+      },
+      {
+        "id": 3,
+        "username": "joao vitor",
+        "email": "joaovitormachado.developer@gmail.com",
+        "password": "rr131095"
+      }
+    ]
+  }
+  

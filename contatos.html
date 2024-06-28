@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="css/styleContato.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="home.html">Home</a>
+            <a href="quemsomos.html">About</a>
+            <a href="artigos.html">Artigos</a>
+            <a href="contatos.html">Contact</a>
+            <a href="Vendas.html">Aba de Vendas</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<main>
+<section class="section1">
+
+
+<h3>Endereço: </h3>
+<p>Av. Afonso Vaz de Melo, 1200 - Barreiro, Belo Horizonte - MG, 30640-070</p>
+<br>
+
+<h3>Telefone:</h3>
+<p>(31) 3328-9514</p>
+<br>
+
+<h3>E-mail:</h3>
+<p>1529712@sga.pucminas.br</p>
+<br>
+
+</section>
+
+<section class="section1">
+
+<form class="contatoform">
+    <h3>Formulário de Contato:</h3>
+    <div class="divform">
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="divform">
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="divform">
+        <label for="subject">Assunto: </label>
+        <input type="text" id="subject" name="subject" required>
+    </div>
+    <div class="divform">
+        <label for="message">Mensagem: </label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <div class="buttonform">
+        <button type="submit">Enviar</button>
+    </div>
+</form>
+
+</section>
+
+<section class="section1">
+
+<h3>Localização: </h3>
+<div class="locMap">
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3749.746904138931!2d-44.02813302466116!3d-19.97714343977857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1719271958026!5m2!1spt-BR!2sbr"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<br>
+<br>
+
+</section>
+</main>
+
+<footer>
+<div class="flexfooter">
+
+<div id="edit">
+
+    <div class="logo-img">
+        <a href="index.html"><img src="img/logo-sosmulher.png" alt="logo-sosmulher"></a>
+    </div>
+
+    <div class="info">
+        <p>SOS Mulher</p>
+        <p>Endereço: Av. Afonso Vaz de Melo, 1200 - Barreiro, Belo Horizonte - MG, 30640-070</p>
+        <p>Telefone: (31) 3328-9514</p>
+    </div>
+
+    <div class="disque">
+        <ul>
+            <li>Disque: <a
+                    href="https://www.gov.br/mdh/pt-br/assuntos/denuncie-violencia-contra-a-mulher/violencia-contra-a-mulher "
+                    target="_blank">180 - Central de Atendimento à Mulher</a></li>
+            <li>Disque: <a href="https://www.policiamilitar.mg.gov.br/contato" target="_blank">190 – Polícia
+                    Militar</a></li>
+            <li>Disque: <a href="https://www.policiacivil.mg.gov.br/pagina/atendimento" target="_blank">197
+                    - Polícia Civil</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="secoes">
+    <p>Navegação Rápida:</p>
+    <ul>
+        <li><a href="quemsomos.html">Quem Somos</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+        <li><a href="artigos.html">artigos</a></li>
+    </ul>
+</div>
+
+</div>
+</footer>
+
+</body>
+
+</html>
