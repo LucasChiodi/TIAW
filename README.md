@@ -136,6 +136,21 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 - `main.html` - Código HTML do conteúdo principal.
 - `styles.css` - Estilos CSS para o conteúdo principal.
 
+## Atualizações Recentes
+### [Data: 28/06/2024]
+#### Adições:
+- **Página de Login e Registro**
+  - `login.html` - Adicionado código HTML para a página de login.
+  - `register.html` - Adicionado código HTML para a página de registro.
+  - `styles.css` - Adicionado estilos CSS para as páginas de login e registro.
+  - `script.js` - Adicionado script JavaScript para funcionalidade das páginas de login e registro.
+  
+- **Servidor JSON**
+  - `db.json` - Adicionado arquivo de configuração para o servidor JSON.
+
+#### Funcionalidades Implementadas:
+- Junção de todas as páginas: As páginas foram integradas e padronizadas para garantir uma experiência de usuário consistente.
+- Responsividade: O projeto foi desenvolvido com foco na responsividade, adaptando-se a diferentes tamanhos de tela.
 
 
 
