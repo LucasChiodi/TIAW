@@ -116,18 +116,7 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 
 ## Atualizações Recentes
 
-### [Data: 20/06/2024]
-
-#### Barra Lateral
-- `barralateral.html` - Adicionado código HTML da barra lateral.
-- `script.js` - Adicionado script JavaScript para a barra lateral.
-- `style.css` - Adicionado estilos CSS para a barra lateral.
-
-#### Main
-- `main.html` - Adicionado código HTML do conteúdo principal.
-- `styles.css` - Adicionado estilos CSS para o conteúdo principal.
-
-## Data [22/06/2024]
+## Data [19/06/2024]
 
 ### Página "Quem Somos"
 - `quemsomos.html` : Adicionado código HTML para a seção "Quem Somos".
@@ -139,7 +128,16 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 - `script.js`: Adicionado script JavaScript para validação de formulários e interatividade na seção "Contatos".
 - `styles.css`: Adicionado estilos CSS para a formatação e layout da seção "Contatos".
 
+### [Data: 20/06/2024]
 
+#### Barra Lateral
+- `barralateral.html` - Adicionado código HTML da barra lateral.
+- `script.js` - Adicionado script JavaScript para a barra lateral.
+- `style.css` - Adicionado estilos CSS para a barra lateral.
+
+#### Main
+- `main.html` - Adicionado código HTML do conteúdo principal.
+- `styles.css` - Adicionado estilos CSS para o conteúdo principal.
 
 ## [Data: 20/06/2024]
 
