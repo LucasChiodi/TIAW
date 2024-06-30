@@ -127,6 +127,20 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 - `main.html` - Adicionado código HTML do conteúdo principal.
 - `styles.css` - Adicionado estilos CSS para o conteúdo principal.
 
+## Data [22/06/2024]
+
+## Página "Quem Somos"
+- `quemsomos.html` : Adicionado código HTML para a seção "Quem Somos".
+- `script.js`: Adicionado script JavaScript para interatividade na seção "Quem Somos".
+- `styles.css`: Adicionado estilos CSS para a formatação e layout da seção "Quem Somos".
+
+## Página "Contatos"
+- `contatos.html`: Adicionado código HTML para a seção "Contatos".
+- `script.js`: Adicionado script JavaScript para validação de formulários e interatividade na seção "Contatos".
+- `styles.css`: Adicionado estilos CSS para a formatação e layout da seção "Contatos".
+
+
+
 ## [Data: 20/06/2024]
 
 ### Adicionado
@@ -136,8 +150,8 @@ Gustavo (Desenvolvedor), Chiodi (Desenvolvedor), Luiz (Desenvolvedor), Igor (Des
 - `main.html` - Código HTML do conteúdo principal.
 - `styles.css` - Estilos CSS para o conteúdo principal.
 
-## Atualizações Recentes
 ### [Data: 28/06/2024]
+
 #### Adições:
 - **Página de Login e Registro**
   - `login.html` - Adicionado código HTML para a página de login.
